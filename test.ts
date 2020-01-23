@@ -18,6 +18,8 @@ async function terminal(host: string, port: number) {
 
   console.log('Closing ' + host + ":" + port + " ...");
   await terminal.close();
+
+  Deno.exit(1);
 }
 
 if (args['help'] || host == undefined || port == 0) {
