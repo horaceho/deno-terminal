@@ -24,6 +24,12 @@ world
 ^C
 ```
 
-Hit `ctrl-c` to stop. That's it.
+Hit `ctrl-c` or `ctrl-d` to stop.
+
+### Syntax
+```shell
+deno --allow-env --allow-net test.ts --help
+syntax: deno --allow-env --allow-net test.ts host port
+```
 
 © 2020 Horace Ho
