@@ -1,6 +1,6 @@
 # A Simple Deno Terminal
 
-![(Deno)](https://img.shields.io/badge/deno-0.30.0-green.svg)
+![(Deno)](https://img.shields.io/badge/deno-0.32.0-green.svg)
 ![GitHub](https://img.shields.io/github/license/horaceho/deno-terminal.svg)
 ![GitHub release](https://img.shields.io/github/release/horaceho/deno-terminal.svg)
 
