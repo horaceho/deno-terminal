@@ -19,7 +19,7 @@ export class Terminal {
   private encoder = new TextEncoder();
 
   async connect(config: RemoteConfig) {
-    this.conn = await Deno.dial({ hostname: config.host, port: config.port });
+    this.conn = await Deno.connect({ hostname: config.host, port: config.port });
     this.reader = new BufReader(this.conn);
     this.writer = new BufWriter(this.conn);
   }
